@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: linear-gradient(to right top, #201e20, #2d2b2e, #444044, #777177, #908a91);
+	font-family: Montserrat, sans-serif;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	min-height: 100vh;
+	margin: 0;
+}
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card-container {
+	background-color: #231E39;
+	border-radius: 25px;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+	color: #B3B8CD;
+	padding: 30px 0 0;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.card-container .pro {
+	color: #231E39;
+	background-color: #FEBB0B;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.card-container img {
+	border: 1px solid #c3b6c4;
+	border-radius: 50%;
+	padding: 7px;
+	height: 50%;
+	width: 50%;
+}
+/*#695637*/
+.button {
+	background-color: transparent;
+	border: 1px solid #2d2c2a72;
+	border-radius: 3px;
+	color: #d77600;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.button:hover {
+	color: #1d6e3d;
+	border: 1px solid #1d6e3d;
+  }
+
+
+/* #d77600 */
+button.primary {
+	background-color: transparent;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	color: #fff;
+	font-family: Montserrat, sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+}
+
+button.primary.ghost {
+	background-color: transparent;
+	color: #d77600;
+}
+
+.topic ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topic ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+
+.skills {
+	background-color: #1F1A36;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.hobbies {
+	background-color: #130a38;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+}
